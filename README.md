@@ -17,3 +17,9 @@ Clone this repository:
 ```bash
 git clone https://github.com/yourusername/similar-domain-bruteforcer.git
 cd similar-domain-bruteforcer
+## Usage
+
+To run the script, use the following command:
+
+```bash
+python domain_bruteforcer.py -d google -t tlds.txt -c compound_names.txt -r resolver.txt
