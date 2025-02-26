@@ -1,3 +1,4 @@
+#BolbolSec ©
 import argparse
 import os
 import subprocess
@@ -18,7 +19,7 @@ def read_file(file_path, strip_dot=False):
     with open(file_path, 'r') as file:
         lines = [line.strip() for line in file.readlines()]
         if strip_dot:
-            lines = [line.lstrip('.') for line in lines]  # Remove leading dot from TLDs
+            lines = [line.lstrip('.') for line in lines]  
         return lines
 
 def generate_domains(domain_keyword, tlds, compounds):
@@ -43,11 +44,11 @@ def resolve_domains(domains, resolver_file, output_file):
     with open(output_file, "r") as f:
         for line in f.readlines():
             domain = line.split()[0]
-            domain = domain.rstrip('.')  # Strip trailing dot
+            domain = domain.rstrip('.')  
             active_domains.add(domain)
     
     
-    # Sort the domains alphabetically
+  
     sorted_domains = sorted(active_domains)
     
     for domain in sorted_domains:
@@ -59,7 +60,7 @@ def resolve_domains(domains, resolver_file, output_file):
 def worker(domain_keyword, tld_file, compound_file, resolver_file):
     logging.info("Starting Similar Domain Bruteforcer")
     
-    tlds = read_file(tld_file, strip_dot=True)  # Ensure TLDs are formatted correctly
+    tlds = read_file(tld_file, strip_dot=True)  
     compounds = read_file(compound_file)
     domains = generate_domains(domain_keyword, tlds, compounds)
     
