@@ -17,8 +17,9 @@ Clone this repository:
 ```bash
 git clone https://github.com/yourusername/similar-domain-bruteforcer.git
 cd similar-domain-bruteforcer
-## Usage
 ```
+
+## Usage
 
 To run the script, use the following command:
 
