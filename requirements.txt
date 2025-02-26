@@ -1,0 +1,4 @@
+argparse
+requests  # If you use requests for APIs like Shodan, Zoomeye
+massdns   # For resolving domains, or any custom Python wrapper you might use
+
