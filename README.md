@@ -7,8 +7,8 @@ This script generates and resolves similar domain names based on a provided doma
 Make sure you have the following installed:
 
 - Python 3.x
-- `massdns` (or another DNS resolver)
-- Required Python packages (listed below)
+- `massdns`
+- Required Python packages
 
 ## Installation
 
