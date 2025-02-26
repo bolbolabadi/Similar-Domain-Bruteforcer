@@ -24,4 +24,4 @@ cd similar-domain-bruteforcer
 To run the script, use the following command:
 
 ```bash
-python domain_bruteforcer.py -d google -t tlds.txt -c compound_names.txt -r resolver.txt
+python3 domain_bruteforcer.py -d google -t tlds.txt -c compound_names.txt -r resolvers.txt
