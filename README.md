@@ -18,6 +18,7 @@ Clone this repository:
 git clone https://github.com/yourusername/similar-domain-bruteforcer.git
 cd similar-domain-bruteforcer
 ## Usage
+```
 
 To run the script, use the following command:
 
