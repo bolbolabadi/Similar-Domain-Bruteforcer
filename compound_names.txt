@@ -1,0 +1,5 @@
+corp
+inc
+tech
+global
+solutions
